@@ -16,13 +16,13 @@ EXAMPLE:
 ```json
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Justin R. Buchanan",
-  "classifications": [ "ASP.NET", "Website", "Solution" ],
-  "identity": "Csg.Templates.AspNetCore.Website",
-  "name": "CSG ASP.NET Core Website Solution",
-  "sourceName": "Skeleton",
+  "author": "CTekDev",
+  "classifications": [ "ASP.NET", "API", "SOLUTION" ],
+  "identity": "CTekDev.AspNet.API.JWT",
+  "name": "CTekDev API & JWT",
+  "sourceName": "CTekDev",
   "preferNameDirectory": true,
-  "shortName": "csgaspnetweb",
+  "shortName": "ctekapijwt",
   "symbols": {
     "title": {
       "type": "parameter",
