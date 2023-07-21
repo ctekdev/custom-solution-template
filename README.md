@@ -61,6 +61,6 @@ dotnet new ctekapijwt -title "CTeckDev JWT API" -output CTekDev
 NOTE
 If looking to install as a template package refer to https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-item-template for similar steps. 
 
-JSON EXPLANATION
+TEMPLATE.JSON EXPLANATION
 
-The symbols.title attribute allows you to rename the project once the template is used inside a different solution. 
+The symbols attribute allows you specify the project title when using dotnet cli, as depicted above. Otherwise, the project title defaults to the name of the solution / project the template was generated from. By providing the soureName property, you can replace any namespace etc. where that property is being used.  
