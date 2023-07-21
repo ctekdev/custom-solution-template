@@ -46,3 +46,14 @@ EXAMPLE:
   ]
 }
 ```
+
+4) To install the solutions folder run
+
+```
+dotnet new install .\
+```
+
+
+EXPLANATION
+
+The symbols.title attribute allows you to rename the project once the template is used inside a different solution. 
