@@ -47,13 +47,20 @@ EXAMPLE:
 }
 ```
 
-4) To install the solutions folder run
+4) To install - navigate inside the solutions folder and run
 
 ```
 dotnet new install .\
 ```
+5) The solution will be installed as a project template from which you can access from inside the VS IDE when creating a new project or from the dotnet cli such as
 
+```
+dotnet new ctekapijwt -title "CTeckDev JWT API" -output CTekDev
+```
 
-EXPLANATION
+NOTE
+If looking to install as a template package refer to https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-item-template for similar steps. 
+
+JSON EXPLANATION
 
 The symbols.title attribute allows you to rename the project once the template is used inside a different solution. 
